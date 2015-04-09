@@ -1,0 +1,10 @@
+
+---
+- name: Doing network configuration, installing database, installing php, installing web server
+  hosts: 172.17.0.8
+  user: root
+  # remote_user: user
+  # sudo: yes
+
+  roles:
+    - common
